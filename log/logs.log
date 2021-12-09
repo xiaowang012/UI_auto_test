@@ -1,0 +1,77 @@
+Sun, 06 Jun 2021 18:49:16 run.py[line:32] INFO <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_001.WebTest testMethod=test_get_title_1___https___www_huawei_com____华为___构建万物互联的智能世界__>, <test_001.WebTest testMethod=test_get_title_2___https___www_mi_com____小米商城___小米11_Ultra_Redmi_K40_Pro_MIX_FOLD_小米电视官方网站__>, <test_001.WebTest testMethod=test_get_title_3___https___www_microsoft_com_zh_cn_____Microsoft___Official_Home_Page__>, <test_001.WebTest testMethod=test_get_title_4___https___www_qq_com_____腾讯首页__>]>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[]>]>
+Sun, 06 Jun 2021 18:49:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54021/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Sun, 06 Jun 2021 18:49:19 connectionpool.py[line:231] DEBUG Starting new HTTP connection (1): 127.0.0.1:54021
+Sun, 06 Jun 2021 18:49:22 connectionpool.py[line:461] DEBUG http://127.0.0.1:54021 "POST /session HTTP/1.1" 200 679
+Sun, 06 Jun 2021 18:49:22 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:22 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54021/session/eee89c65-aa15-430e-b149-9c9215a2d7a0/timeouts {"implicit": 30000}
+Sun, 06 Jun 2021 18:49:22 connectionpool.py[line:461] DEBUG http://127.0.0.1:54021 "POST /session/eee89c65-aa15-430e-b149-9c9215a2d7a0/timeouts HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:49:22 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:22 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54021/session/eee89c65-aa15-430e-b149-9c9215a2d7a0/window/maximize {}
+Sun, 06 Jun 2021 18:49:22 connectionpool.py[line:461] DEBUG http://127.0.0.1:54021 "POST /session/eee89c65-aa15-430e-b149-9c9215a2d7a0/window/maximize HTTP/1.1" 200 51
+Sun, 06 Jun 2021 18:49:22 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:22 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54021/session/eee89c65-aa15-430e-b149-9c9215a2d7a0/url {"url": "https://www.huawei.com"}
+Sun, 06 Jun 2021 18:49:24 connectionpool.py[line:461] DEBUG http://127.0.0.1:54021 "POST /session/eee89c65-aa15-430e-b149-9c9215a2d7a0/url HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:49:24 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:24 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:54021/session/eee89c65-aa15-430e-b149-9c9215a2d7a0/title {}
+Sun, 06 Jun 2021 18:49:24 connectionpool.py[line:461] DEBUG http://127.0.0.1:54021 "GET /session/eee89c65-aa15-430e-b149-9c9215a2d7a0/title HTTP/1.1" 200 54
+Sun, 06 Jun 2021 18:49:24 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:24 remote_connection.py[line:388] DEBUG DELETE http://127.0.0.1:54021/session/eee89c65-aa15-430e-b149-9c9215a2d7a0 {}
+Sun, 06 Jun 2021 18:49:24 connectionpool.py[line:461] DEBUG http://127.0.0.1:54021 "DELETE /session/eee89c65-aa15-430e-b149-9c9215a2d7a0 HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:49:24 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:27 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54076/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Sun, 06 Jun 2021 18:49:27 connectionpool.py[line:231] DEBUG Starting new HTTP connection (1): 127.0.0.1:54076
+Sun, 06 Jun 2021 18:49:32 connectionpool.py[line:461] DEBUG http://127.0.0.1:54076 "POST /session HTTP/1.1" 200 679
+Sun, 06 Jun 2021 18:49:32 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:32 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54076/session/991df060-7094-4d0f-b610-b7e24fde4c4c/timeouts {"implicit": 30000}
+Sun, 06 Jun 2021 18:49:32 connectionpool.py[line:461] DEBUG http://127.0.0.1:54076 "POST /session/991df060-7094-4d0f-b610-b7e24fde4c4c/timeouts HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:49:32 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:32 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54076/session/991df060-7094-4d0f-b610-b7e24fde4c4c/window/maximize {}
+Sun, 06 Jun 2021 18:49:32 connectionpool.py[line:461] DEBUG http://127.0.0.1:54076 "POST /session/991df060-7094-4d0f-b610-b7e24fde4c4c/window/maximize HTTP/1.1" 200 51
+Sun, 06 Jun 2021 18:49:32 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:32 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54076/session/991df060-7094-4d0f-b610-b7e24fde4c4c/url {"url": "https://www.mi.com"}
+Sun, 06 Jun 2021 18:49:34 connectionpool.py[line:461] DEBUG http://127.0.0.1:54076 "POST /session/991df060-7094-4d0f-b610-b7e24fde4c4c/url HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:49:34 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:34 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:54076/session/991df060-7094-4d0f-b610-b7e24fde4c4c/title {}
+Sun, 06 Jun 2021 18:49:34 connectionpool.py[line:461] DEBUG http://127.0.0.1:54076 "GET /session/991df060-7094-4d0f-b610-b7e24fde4c4c/title HTTP/1.1" 200 95
+Sun, 06 Jun 2021 18:49:34 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:34 remote_connection.py[line:388] DEBUG DELETE http://127.0.0.1:54076/session/991df060-7094-4d0f-b610-b7e24fde4c4c {}
+Sun, 06 Jun 2021 18:49:35 connectionpool.py[line:461] DEBUG http://127.0.0.1:54076 "DELETE /session/991df060-7094-4d0f-b610-b7e24fde4c4c HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:49:35 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:38 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54175/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Sun, 06 Jun 2021 18:49:38 connectionpool.py[line:231] DEBUG Starting new HTTP connection (1): 127.0.0.1:54175
+Sun, 06 Jun 2021 18:49:46 connectionpool.py[line:461] DEBUG http://127.0.0.1:54175 "POST /session HTTP/1.1" 200 680
+Sun, 06 Jun 2021 18:49:46 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:46 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54175/session/4d3ed9fd-970a-4162-a9cc-e659d0da7bdf/timeouts {"implicit": 30000}
+Sun, 06 Jun 2021 18:49:46 connectionpool.py[line:461] DEBUG http://127.0.0.1:54175 "POST /session/4d3ed9fd-970a-4162-a9cc-e659d0da7bdf/timeouts HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:49:46 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:46 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54175/session/4d3ed9fd-970a-4162-a9cc-e659d0da7bdf/window/maximize {}
+Sun, 06 Jun 2021 18:49:46 connectionpool.py[line:461] DEBUG http://127.0.0.1:54175 "POST /session/4d3ed9fd-970a-4162-a9cc-e659d0da7bdf/window/maximize HTTP/1.1" 200 51
+Sun, 06 Jun 2021 18:49:46 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:46 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54175/session/4d3ed9fd-970a-4162-a9cc-e659d0da7bdf/url {"url": "https://www.microsoft.com/zh-cn/"}
+Sun, 06 Jun 2021 18:49:48 connectionpool.py[line:461] DEBUG http://127.0.0.1:54175 "POST /session/4d3ed9fd-970a-4162-a9cc-e659d0da7bdf/url HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:49:48 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:48 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:54175/session/4d3ed9fd-970a-4162-a9cc-e659d0da7bdf/title {}
+Sun, 06 Jun 2021 18:49:48 connectionpool.py[line:461] DEBUG http://127.0.0.1:54175 "GET /session/4d3ed9fd-970a-4162-a9cc-e659d0da7bdf/title HTTP/1.1" 200 42
+Sun, 06 Jun 2021 18:49:48 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:48 remote_connection.py[line:388] DEBUG DELETE http://127.0.0.1:54175/session/4d3ed9fd-970a-4162-a9cc-e659d0da7bdf {}
+Sun, 06 Jun 2021 18:49:51 connectionpool.py[line:461] DEBUG http://127.0.0.1:54175 "DELETE /session/4d3ed9fd-970a-4162-a9cc-e659d0da7bdf HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:49:51 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:54 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54253/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Sun, 06 Jun 2021 18:49:54 connectionpool.py[line:231] DEBUG Starting new HTTP connection (1): 127.0.0.1:54253
+Sun, 06 Jun 2021 18:49:58 connectionpool.py[line:461] DEBUG http://127.0.0.1:54253 "POST /session HTTP/1.1" 200 679
+Sun, 06 Jun 2021 18:49:58 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:58 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54253/session/e5b980c9-a349-4c1e-88b7-f6ba2841314a/timeouts {"implicit": 30000}
+Sun, 06 Jun 2021 18:49:58 connectionpool.py[line:461] DEBUG http://127.0.0.1:54253 "POST /session/e5b980c9-a349-4c1e-88b7-f6ba2841314a/timeouts HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:49:58 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:58 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54253/session/e5b980c9-a349-4c1e-88b7-f6ba2841314a/window/maximize {}
+Sun, 06 Jun 2021 18:49:58 connectionpool.py[line:461] DEBUG http://127.0.0.1:54253 "POST /session/e5b980c9-a349-4c1e-88b7-f6ba2841314a/window/maximize HTTP/1.1" 200 51
+Sun, 06 Jun 2021 18:49:58 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:49:58 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:54253/session/e5b980c9-a349-4c1e-88b7-f6ba2841314a/url {"url": "https://www.qq.com/"}
+Sun, 06 Jun 2021 18:50:00 connectionpool.py[line:461] DEBUG http://127.0.0.1:54253 "POST /session/e5b980c9-a349-4c1e-88b7-f6ba2841314a/url HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:50:00 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:50:00 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:54253/session/e5b980c9-a349-4c1e-88b7-f6ba2841314a/title {}
+Sun, 06 Jun 2021 18:50:00 connectionpool.py[line:461] DEBUG http://127.0.0.1:54253 "GET /session/e5b980c9-a349-4c1e-88b7-f6ba2841314a/title HTTP/1.1" 200 24
+Sun, 06 Jun 2021 18:50:00 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 06 Jun 2021 18:50:00 remote_connection.py[line:388] DEBUG DELETE http://127.0.0.1:54253/session/e5b980c9-a349-4c1e-88b7-f6ba2841314a {}
+Sun, 06 Jun 2021 18:50:05 connectionpool.py[line:461] DEBUG http://127.0.0.1:54253 "DELETE /session/e5b980c9-a349-4c1e-88b7-f6ba2841314a HTTP/1.1" 200 14
+Sun, 06 Jun 2021 18:50:05 remote_connection.py[line:440] DEBUG Finished Request
